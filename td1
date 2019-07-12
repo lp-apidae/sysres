@@ -1,0 +1,24 @@
+II) IP et routage
+A) Adressage IP
+
+	-	IP de l'ordi : IP de classe A (10.20.119.1)
+	-	IP du réseau : IP de classe B (162.38.222.172)
+	-	Différentes car IP privée != IP publique
+
+	- 162.38.0.0 = uMontpellier
+	- 193.51.152.0 = RENATER
+
+B) Tables de routage IP
+
+	-	réseau destination / passerelle / masque / interface
+
+C) Routage IP
+
+	-	www.umontpellier.fr	<=>	193.51.152.74			vers um1
+	-	www.google.fr	<=>	172.217.18.227				paris
+	-	157.205.227.182 <=>	gotokyo.org					japon
+	-	54.253.253.77	<=>	ap-southeast-2.compute.amazonaws.com	asie pacifique (sydney)	
+	-	150.22.120.10	<=> ?????	
+	
+	-	au moins 7 routeurs avant de sortir de l'univ, 9 de renater mtp
+	-	entre 10 et 20 routeurs avant les destinations
